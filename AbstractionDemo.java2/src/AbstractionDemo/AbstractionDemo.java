@@ -8,7 +8,12 @@ abstract class Payment {
     }
 }
 
-
+class CardPayment extends Payment{
+    @Override
+    void processPayment(){
+        System.out.println("Payment completed using card");
+    }
+}
 
 public class AbstractionDemo {
     
@@ -17,6 +22,6 @@ public class AbstractionDemo {
        
        
        
-   }
+   }    
     
 }

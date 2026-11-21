@@ -22,6 +22,13 @@ public class PolymorphismDemoJava {
   
     public static void main(String[] args) {
         // TODO code application logic here
+        Vehicle vehicle1 = new car();
+        Vehicle vehicle2 = new motorcycle();
+        
+        System.out.println("vihicle Demostration");
+        
+        vehicle1.move();
+        vehicle2.move();
     }
     
 }
